@@ -107,6 +107,7 @@ body {
 .move {
   padding-top: 65px;
 }
+
 .video {
   justify-content: center;
   align-items: center;
@@ -115,3 +116,5 @@ body {
 .altura {
   height: 5px;
 }
+.greeting {
+    text-align: center; }
