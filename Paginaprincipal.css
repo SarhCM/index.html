@@ -1,0 +1,117 @@
+:root {
+    --principal:rgb(214, 232, 219) ;
+    --background: rgb(153, 169, 143);
+    --second-color:rgb(255, 249, 222);
+    --third-color: whitesmoke;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: var(--principal);
+}
+
+body {
+    background-color: rgb(214, 232, 219);
+  }
+  .container {
+      max-width: 800px;
+      margin: auto;
+      padding: 20px;
+    }
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 10px;
+    }
+    
+    .column {
+      flex: 1;
+      padding: 10px;
+    }
+    @media (max-width: 600px) {
+      .column {
+        flex: 100%;
+      }
+    }
+  
+    .formulario {
+      text-align: center; font-family: 'Times New Roman', Times, serif; color: rgb(153, 169, 143) ;
+    }
+
+    /*Barra de Navegación*/
+
+.navbar {
+    background-color: var(--background);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    opacity: .9;
+}
+
+.navbar-logo a {
+  color: whitesmoke;
+  font-weight: bolder;
+  text-decoration: none;
+  font-size:1rem;
+}
+
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+.navbar-menu li {
+    margin-left: 15px;
+    transition: 2s;
+}
+.navbar-menu li a {
+    color: var(--second-color);
+    text-decoration: none;
+    font-size: 1rem;
+    transition: .5s;
+}
+.navbar-menu li a:hover {
+    color: var(--third-color);
+}
+
+@media (max-width: 768px) {
+    .navbar-menu {display: none;}
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+.column {
+  flex: 1;
+  padding: 20px;
+}
+.griego {
+  height: 238px;
+  width: 363px;
+}
+.monta {
+  height: 372px;
+  width: 344px;
+}
+.paisa {
+  height: 238px;
+  width: 363px;
+}
+.move {
+  padding-top: 65px;
+}
+.video {
+  justify-content: center;
+  align-items: center;
+  padding-left: 25%;
+}
+.altura {
+  height: 5px;
+}
